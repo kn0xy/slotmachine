@@ -1,0 +1,77 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 1rem;
+  background-color: #0C0C0C;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-family: sans-serif;
+}
+
+html.webp > body {background-image: url("../bg.webp")}
+
+html.no-webp > body {background-image: url("../bg.jpg")}
+
+#reels {
+  display: flex;
+  width: 100vw;
+  height: calc((3 / 5) * 100vw);
+  max-height: calc(90vh - 50px - 40px);
+  max-width: calc((5 / 3) * (90vh - 50px - 40px));
+  position: relative;
+}
+
+.reel {
+  overflow: hidden;
+  width: 20%;
+  height: 100%;
+}
+
+.reel > .icons img {
+  width: 100%;
+  margin: 0;
+  height: auto;
+  transform: translate3d(0, 0, 0);
+}
+
+.reel > .icons > picture {
+  transform: translate3d(0, 0, 0);
+}
+
+#controls {
+  background-color: rgba(255, 255, 255, 0.75);
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 30px;
+  position: relative;
+}
+
+#controls label {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+#controls label input {
+  margin-right: 5px;
+}
+
+#creditsDisplay {
+  position: absolute;
+  right: 0;
+  padding: 1rem;
+}
+
+input[type="checkbox"] {
+  width: 40px;
+  height: 40px;
+}
+
+#spin {
+  font-size: 3rem;
+}
