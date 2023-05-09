@@ -43,4 +43,23 @@ I was originally planning to add rewards such as:
 
 ---
 
+### Game Pieces
+
+There are four different icons:
+* Turbocharger
+* Water Pump
+* Brake Disc
+* Battery
+
+Each icon can be one of the following colors:
+* Red
+* Green
+* Blue
+* Yellow
+* Metal (Gray)
+
+For a total of 20 unique pieces.
+
+---
+
 :eight_spoked_asterisk: <a href="https://www.knoxy.tk/portfolio/slotmachine/">Live Demo</a>
