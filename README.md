@@ -1,6 +1,6 @@
 # Slot Machine
 Simple casino-style slot machine with a car parts theme built using HTML, CSS, and JavaScript. 
-  Some jQuery was used for testing, but I never got around to cleaning it up or finishing the project.
+Some jQuery was used for testing, but I never got around to cleaning it up or finishing the project.
 I was originally planning to add rewards such as:
 
 **Close Call:**       5 of the same symbol in a row but no match
@@ -39,3 +39,8 @@ I was originally planning to add rewards such as:
 **Color Lock:**
   * Occurs when the first reel contains 3 unique colors and 3 unique symbols
   * Provides a 100% chance to receive "Three Stripes" bonus
+
+
+---
+
+:eight_spoked_asterisk: <a href="https://www.knoxy.tk/portfolio/slotmachine/">Live Demo</a>
